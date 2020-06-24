@@ -1,0 +1,117 @@
+$bg-color: whitesmoke;
+$nav-font: lightblue;
+$base-font: 12px;
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: $bg-color;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: $base-font;
+}
+
+section { 
+	margin: 0;
+	padding: 0;
+
+	h1 {
+		text-transform: uppercase;
+	}
+}
+
+p {
+	font-size: 1.75em;
+	line-height: 2em;
+	margin-top: 1em;
+	text-align: justify;
+	text-justify: initial;
+}
+
+
+.bg-dark {
+	// background: rgb(240,216,93);
+	// background: linear-gradient(90deg, rgba(240,216,93,0.9839286056219363) 0%, rgba(245,40,144,1) 46%, rgba(101,230,251,1) 100%);
+}
+
+.navbar {
+
+	font-family: 'Cabin', sans-serif;
+
+	&-dark {
+
+		.navbar {
+
+			&-nav {
+
+				.nav {
+
+					&-link {
+						color: $nav-font;
+						font-size: 1.25em;
+						font-weight: normal;
+						margin: 0 .5em;
+						padding: 0 1.5em;
+						text-transform: uppercase;
+					}
+				}
+
+			}
+		}
+	}
+
+	span {
+
+		color: $nav-font;
+		font-size: 1em;
+	}
+}
+
+.jumbotron {
+	padding: 4rem 2rem .5em;
+	background-color: #082542;
+	color: coral;
+	border-radius: 0;
+
+	h1 {
+		text-transform: capitalize;
+		color: #56818f;
+	}
+
+	.btn-primary {
+		background-color: whitesmoke;
+
+		a {
+			color: blue;
+		}
+	}
+
+
+}
+
+.btn {
+
+	&-primary {
+
+		a {
+			color: whitesmoke;
+			text-decoration: none;
+		}
+	}
+}
+
+#about { 
+   a {
+	 color :  #b09668;
+	} 
+
+	p {
+		color : #714c3e;
+	}
+}
+
+#projects h1 { 
+	margin-bottom: 1em;
+}

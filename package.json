@@ -1,0 +1,32 @@
+{
+  "name": "webportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sprakash/webportfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sprakash/webportfolio/issues"
+  },
+  "homepage": "https://github.com/sprakash/webportfolio#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "browser-sync": "^2.26.7",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1",
+    "tether": "^1.4.7"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-size": "^3.0.0"
+  }
+}
