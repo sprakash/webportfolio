@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-	<title>Shubhra Prakash - Front End Developer</title>
+	<title>Shubhra Prakash - Freelance Front End Developer</title>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,19 +10,21 @@
 
 	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,400;0,600;0,900;1,400;1,500;1,600;1,900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-	<link
 	<link rel="stylesheet" href="/build/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/build/css/style.css">
 </head>
+
 <body>
 	<script src="/build/js/jquery.min.js"></script>
 	<script src="/build/js/tether.min.js"></script>
 	<script src="/build/js/bootstrap.min.js"></script>
 
 
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+<nav id="main-nav" class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
 		<a class="navbar-brand" href="#"><span>Shubhra Prakash (शुभ्रा प्रकाश)</span></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -30,7 +32,7 @@
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 			    <li class="nav-item active">
-			      <a class="nav-link" href="#about">About</a>
+			      <a class="nav-link" href="#about-area">About</a>
 			      	<span class="sr-only">(current)</span>
 			    </li>
 			    <li class="nav-item">
@@ -42,30 +44,35 @@
 			    <li class="nav-item">
 			      <a class="nav-link" href="#more">More</a>
 			    </li>
-			    <li class="nav-item">
-			      <a class="nav-link" href="#contact">Contact</a>
-			    </li>
   			</ul>
 		</div>
 </nav>
 
-<main role="main">
+<main role="main" data-spy="scroll" data-target="main-nav" data-offset="0">
 	
-	<section class="container-fluid">
+	<section class="container-fluid" id="about-area">
 		<div class="jumbotron" id="about">
 			<div class="container">
-		    	<h1 class="display-3">Hello, world!</h1>    
-		    	<div class="col-md-10">  
-				    <p>I am a freelance front end developer who has experience in high pressure production environments within industries of Banking, Education, Fashion, Health/Pharma and Advertising. I enjoy working with designers, art directors and project managers. My mantra to seeing  a successful project through can be summed up with the following "Communication is key." <br/><br/>
-					
-					I am a US Citizen working remotely from India since 2019.
-						<p>
-							<a href="https://docs.google.com/document/d/1lOsW1FvHc_VDOwyliedNkX0-BdcgKnIc4fkt5IlnkGI/edit?usp=sharing" target="_blank">Download Resume >></a>
+				<div id="about-area"/>
+		    	<h1 class="display-3">Hello, world!</h1>  
+		    	<div class="row">  
+			    	<div class="col-md-9 about">  
+					    <p>I am a freelance front end developer who has experience in high pressure production environments within industries of Advertising, Fashion, Education and Finance. I enjoy working with designers, art directors and project managers. My mantra to seeing  a successful project through can be summed up with the following quote, "Communication is key." <br/><br/>
+						
+						I am authorized to work in the United States (Citizen) and have been working remotely from India since 2019.
+
+						Please have a look at a few projects I have worked on, under the <a href="#projects">Projects</a> section.
 						</p>
-					</p>
-				</div>
-				<div class="col-md-2">
-					<img src="/build/assets/author.jpg" class="rounded-circle" alt="Author Shubhra Prakash">
+					</div>
+					<div class="col-md-3">
+						<img src="/build/assets/author.jpg" class="rounded-circle" alt="Author Shubhra Prakash">
+						<p class="resume-link">
+								<a href="https://docs.google.com/document/d/1lOsW1FvHc_VDOwyliedNkX0-BdcgKnIc4fkt5IlnkGI/edit?usp=sharing" target="_blank">Download Resume</a>
+								<a href="mailto:prakashnitza@gmail.com;subject='From Your webpage'">prakashnitza@gmail.com</a>
+								<a href="https://www.linkedin.com/in/shubhraprakash/"><i style="font-size:24px" class="fa">&#xf08c;</i></a>
+
+							</p>
+					</div>
 				</div>
 			</div>
 	  </div>
@@ -73,108 +80,157 @@
 	<section>
 		<section id="projects">
 			<div class="container">
+			 	<div id="projects-area"/>
+
 				<h1>Projects</h1>
-
-				<div class="row">
-					<div class="col-md-4">
-						<h2>Hal Poetry</h2>
-						<p></p>
-						<a href="btn btn-secondary" href="https://sprakash.github.io/halpoetry/" target="_blank">View Project</a>
-
-					</div>
-					<div class="col-md-4">
-						
-						Havas Health - The Toilet Talk 
-						https://clios.com/health/winner/integrated-campaign-health-wellness/viberzi/toilet-talk-30766
+				<hr/>
 
 
-					</div>
-					<div class="col-md-4">
-						
-						MRM-Mcann 
-				siteone ... find another 
-
-					</div>
-					<div class="col-md-4">
-						
-
-				Grey.com 
-				Trulicity 
-
-					</div>
-					<div class="col-md-4">
-						Macys.com
-				Dress Diaries
-
-					</div>
-					<div class="col-md-4">
-						
-Teacher's College, Columbia.  Stanford Engineering
-
-					</div>
-					<div class="col-md-4">
-						
-Poetic Theatre Production
-				Wordpress maintenance 
-
-					</div>
+				<div class="py-5">
+				<div id="projects-button-area" class="row">
+					
+					<div class="col-lg-6 mb-5 project">
+				        <!-- Collapse Panel 1-->
+				        <a data-toggle="collapse" href="#halContent" role="button" aria-expanded="false" aria-controls="halContent" class="btn btn-primary btn-block with-chevron">
+				          <p class="d-flex align-items-center justify-content-between mb-0 px-3 py-2"><img src="/build/assets/halApplogo.jpg" class="img-thumbnail"><p class="arrow"><i class="fa fa-angle-down"></i></p></p>
+				        </a>
+				        <div id="halContent" class="collapse shadow-sm">
+				          <div class="card">
+				            <div class="card-body">
+				              <p class="font-italic mb-0 text-muted">HalApp is for those with Parkinson disease to practice their speech using renowned poet Hal Sorowitz's poems. Hal was diagnosed with Parkinson's disease and has continued his journey as a poet. You can choose a poem by Hal, read it and gauge your speech using waveform and meter, you can record the poem and also save the video of you reading it. The project was selected for Virtual Beings Developer Grants. Currently phase one is desktop use only. <br/><a href="https://sprakash.github.io/halpoetry">Check out HalApp</a> | <a href="https://parkinsonspoetry.org/">Read more about Parkinson's Poetry</a></p>
+				            </div>
+				          </div>
+				        </div>
+				     </div>	
+				     <div class="col-lg-6 mb-5 project">
+				        <!-- Collapse Panel 1-->
+				        <a data-toggle="collapse" href="#poeticTheatre" role="button" aria-expanded="false" aria-controls="poeticTheatre" class="btn btn-primary btn-block with-chevron">
+				          <p class="d-flex align-items-center justify-content-between mb-0 px-3 py-2"><img src="/build/assets/poeticprod.jpg" class="img-thumbnail"><p class="arrow"><i class="fa fa-angle-down"></i></p></p>
+				        </a>
+				        <div id="poeticTheatre" class="collapse shadow-sm">
+				          <div class="card">
+				            <div class="card-body">
+				              <p class="font-italic mb-0 text-muted">Poetic Theatre Productions is a New York City based theatre company for whom I have provided continued Wordpress consultancy in regards to maintenance issues, db migrations, site updates and code on the backend for theme customizations. <br/><a href="https://poetictheater.com/">Check out Poetic Theatre Productions website.</a></p>
+				            </div>
+				          </div>
+				        </div>
+				     </div>	
+				     <div class="col-lg-6 mb-5 project">
+				        <!-- Collapse Panel 1-->
+				        <a data-toggle="collapse" href="#havasHealth" role="button" aria-expanded="false" aria-controls="havasHealth" class="btn btn-primary btn-block with-chevron">
+				          <p class="d-flex align-items-center justify-content-between mb-0 px-3 py-2"><img src="/build/assets/toiletTalk.jpg" class="img-thumbnail"><p class="arrow"><i class="fa fa-angle-down"></i></p></p>
+				        </a>
+				        <div id="havasHealth" class="collapse shadow-sm">
+				          <div class="card">
+				            <div class="card-body">
+				              <p class="font-italic mb-0 text-muted">Created an interactive quiz for Havas Health's Toilet Talk campaign for their client Viberzi as part of IBS awareness. The campaign won a bronze CLIO award. <br/><a href="https://clios.com/health/winner/integrated-campaign-health-wellness/viberzi/toilet-talk-30766">Details on Awards webpage.</a></p>
+				            </div>
+				          </div>
+				        </div>
+				     </div>	
+				      <div class="col-lg-6 mb-5 project">
+				        <!-- Collapse Panel 1-->
+				        <a data-toggle="collapse" href="#coyotek" role="button" aria-expanded="false" aria-controls="coyotek" class="btn btn-primary btn-block with-chevron">
+				          <p class="d-flex align-items-center justify-content-between mb-0 px-3 py-2"><img src="/build/assets/coyotek.jpg" class="img-thumbnail"><p class="arrow"><i class="fa fa-angle-down"></i></p></p>
+				        </a>
+				        <div id="coyotek" class="collapse shadow-sm">
+				          <div class="card">
+				            <div class="card-body">
+				              <p class="font-italic mb-0 text-muted">Coyotek is a multimedia-interactive project that works as a speculative web market where immigrants can find tools to bypass the oppressive forms of surveillance put upon them. The project was created as part of being selected for TFI Interactive Immigration Co/Lab in 2017. <br/><a href="https://saoun.github.io/coyotek/index.html">Check out Coyotek website</a> | <a href="https://immerse.news/field-notes-tfis-immigration-co-lab-aafbe4a3e4d3">Read more about TFI Interactive Immigration Co/Lab</a></p>
+				            </div>
+				          </div>
+				        </div>
+				     </div>	
 				</div>
+
+
+				
+				<div class="row">
+					<em>Note : These are only a selection of projects, for a complete work history <a href="https://docs.google.com/document/d/1lOsW1FvHc_VDOwyliedNkX0-BdcgKnIc4fkt5IlnkGI/edit?usp=sharing" target="_blank"> Download Resume</a> </em>
+				</div>
+
 			</div>
+		</div>
+				
 		</section>
 
 		<section id="tools">
-			<h1>Tools I have worked with</h1>
-			<ul>
-				<li><span>Version Control</span> Git, Subversion, ClearCase & Perforce.</li>
-				<li><span>IDE</span> Sublime, IntelliJ, WebStorm & Eclipse.</li>
-				<li><span>Graphics</span> Adobe Premiere  & Adobe Photoshop.</li>
-				<li><span>Additional</span> Vue.js, jQuery, JIRA, Litmus, Veeva, Sharepoint, Wordpress, Squarespace and Wix.</li>
-			</ul>
+			<div class="container">
+				<div id="tools-area"/>
+
+					<h1>Tools</h1>
+					<hr/>
+
+					<div class="row">
+						<ul>
+							<li><span>Version Control</span> <div>Git, Subversion, ClearCase & Perforce.</div></li>
+							<li><span>IDE</span> <div>Sublime, IntelliJ, WebStorm & Eclipse.</div></li>
+							<li><span>Graphics</span><div> Adobe Photoshop, Premiere & AfterEffects</div></li>
+							<li><span>Additional</span> <div>Vue.js, jQuery, JIRA, Litmus, Veeva, Sharepoint, Wordpress, Squarespace and Wix.</div></li>
+						</ul>
+					</div>
+
+					<div class="row">
+						<p>Lastest with editing : Recent music video edited in June 2020 showcased on ErosNow a leading entertainment channel in India garnered 30K views. <a href="https://www.youtube.com/watch?v=8PZGFw1wt9U">Watch video here</a></p>
+					</div>
+			</div>
 		</section>
 	</section>
 	<section id="more">
-		<h1>Along with web development.</h1>
-		<p>Proficient in basic Adobe Premiere editing</p>
-			Latest project .. edited during the lockdown footage 
-			showcased on ErosNow leading production company in India.
+			<div class="container">
+				<div id="more-area"/>
 
-		<p>Additional portfolio that includes my work that stands at the intersection of code, digital and art.</p>
-	</section>
-	<section id="contact">
-		
-	</section>
-	<section>
-		<em>Production sites of some of my projects may have been updated since I've worked on them.</em>
-		<em>This responsive website has been created using Bootstrap 4.</em>
-	</section>
+				<h1>More</h1>
+					<hr/>
+
+					<div class="row">
+						<a href="https://sprakash.github.io/portfolio" target="_blank"><img src="/build/assets/more.png" class="img-thumbnail"></a>
+						<p>Artistic portfolio that showcases my projects that lie at the intersection of digital, tech and performance. Check it out <a href="https://sprakash.github.io/portfolio" target="_blank">here</a>.</p>
+
+					</div>
+			</div>
 	</section>
 </main>
 
 	<script>
-	$(document).ready(function(){
-	  // Add smooth scrolling to all links
-	  $("a").on('click', function(event) {
 
-	    // Make sure this.hash has a value before overriding default behavior
-	    if (this.hash !== "") {
-	      // Prevent default anchor click behavior
-	      event.preventDefault();
+		jQuery('.navbar-nav>li>a').on('click', function(){
+			$('.navbar-collapse').collapse('hide');
+		});
 
-	      // Store hash
-	      var hash = this.hash;
+		var ua = navigator.userAgent.toLowerCase(); 
+		if (ua.indexOf('safari') != -1) { 
+		  if (ua.indexOf('chrome') > -1) {
+				console.log('chrome only');
+		   } else {
+		    
+		    $(document).ready(function(){
+			  // Add smooth scrolling to all links
+			  $("a").on('click', function(event) {
 
-	      // Using jQuery's animate() method to add smooth page scroll
-	      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-	      $('html, body').animate({
-	        scrollTop: $(hash).offset().top
-	      }, 800, function(){
+			    // Make sure this.hash has a value before overriding default behavior
+			    if (this.hash !== "") {
+			      // Prevent default anchor click behavior
+			      event.preventDefault();
 
-	        // Add hash (#) to URL when done scrolling (default click behavior)
-	        window.location.hash = hash;
-	      });
-	    } // End if
-	  });
-	});
+			      // Store hash
+			      var hash = this.hash;
+
+			      // Using jQuery's animate() method to add smooth page scroll
+			      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			      $('html, body').animate({
+			        scrollTop: $(hash).offset().top
+			      }, 800, function(){
+
+			        // Add hash (#) to URL when done scrolling (default click behavior)
+			        window.location.hash = hash;
+			      });
+			    } // End if
+			  });
+			});
+		  }
+		}
+	
 	</script>
 </body>
 </html>
