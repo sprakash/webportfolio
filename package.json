@@ -18,7 +18,7 @@
   "homepage": "https://github.com/sprakash/webportfolio#readme",
   "dependencies": {
     "bootstrap": "^4.5.0",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "jquery": "^3.5.1",
     "popper": "^1.0.1",
     "tether": "^1.4.7"
